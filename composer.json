@@ -1,0 +1,19 @@
+{
+    "name": "josefelipetto/command-line-task-manager",
+    "description": "A simple command line task manager built in PHP",
+    "require": {
+        "symfony/console": "^3.3"
+    },
+    "autoload":{
+        "psr-4" : {
+            "App\\" : "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Henrique Medeiros Felipetto",
+            "email": "jose.felipetto@pucpr.br"
+        }
+    ]
+}
